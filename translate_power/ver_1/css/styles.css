@@ -1,0 +1,247 @@
+body {
+	margin: 0 auto;
+	font-family: Gotham Rounded, sans-serif;
+	padding-bottom: 50px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 20px;
+	padding: 0 40px;
+	grid-template-areas: ". content content content content .";
+}
+
+.grid-video {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0;
+	padding: 0 20px;
+	grid-template-areas: ". content content .";
+}
+
+.grid-video-single {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 20px;
+	padding: 0 40px;
+	grid-template-areas: "content content content content content content";
+}
+
+.grid-translate {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0;
+	padding: 0 40px;
+	grid-template-areas: "content content";
+}
+
+.content {
+	grid-area: content;
+	max-width: 1000px;
+	width: 100%;
+	justify-content: center;
+}
+
+/* content */ 
+
+/*section after header*/
+.about {
+	font-size: 1.4rem;
+	color: #757575;
+	padding: 2rem;
+	margin-top: 2rem;
+	margin-right: 2rem; 
+	margin-left: 2rem;
+}
+
+.top-words {
+	padding: 0.5rem;
+}
+.dark-body {
+	box-sizing: border-box;
+	margin-top: 0.5rem;
+	border-radius: 8px;
+	background-color: #f6f6f6;
+	box-shadow: 0 0 5px #cacaca;
+}
+
+#floater {
+	/*width: 30%;
+	height: auto;*/
+	float: right;
+	overflow: auto; 
+}
+
+.box-outlined {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* content-continue */
+.grad-body {
+	background-image: linear-gradient(#606dbc, white);
+	/*height: 300px;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+
+.margin-top {
+	margin-top: 3rem;
+}
+
+.translate-item {
+	grid-column: span 1;
+    margin: 1rem;
+    background-color: red;
+}
+
+.videos-collect {
+	grid-column: span 1;
+    margin: 1rem;
+    background-color: red;
+}
+
+.video-item {
+	font-size: 1.5rem;
+    color: #444;
+    font-weight: lighter;
+}
+
+.video-title {
+	text-align: center;
+    font-size: 1.25rem;
+    color: #333;
+    /*margin-bottom: 2rem;*/
+}
+
+
+
+
+/* GRAPHICAL */ 
+.dark-header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/Going-to-Miami.jpg");
+	/*height: 300px;*/
+	background-position: center;
+	/*background-attachment: fixed;*/ 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #005681;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+
+.light-header {
+	color: white;
+	background-color:  #606dbc;
+	background: repeating-linear-gradient(
+		45deg,
+		#606dbc,
+		#606dbc 10px,
+		#465298 10px,
+		#465298 20px
+		);
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 8px 6px -6px #465298;
+	/*margin-top: 5px; 
+	margin-bottom: 5px;*/
+}
+
+.brand-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 5rem;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow:
+		/* white glow */
+		0 0 7px #fff,
+	    0 0 10px #fff,
+	    0 0 21px #fff,
+	    /* pink glow */
+	    0 0 42px #EA33FF,
+	    0 0 82px #EA33FF,
+	    0 0 92px #EA33FF,
+	    0 0 102px #EA33FF,
+	    0 0 151px #EA33FF; 
+}
+/*
+@media screen and (max-width: 800px){
+	.title{
+		font-size: 3rem; 
+	}
+*/
+.sub-title {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+	text-shadow:
+		/* white glow */
+		0 0 7px #fff,
+	    0 0 10px #fff,
+	    0 0 21px #fff,
+	    /* blue glow */
+	    0 0 42px #4285f4,
+	    0 0 82px #4285f4,
+	    0 0 92px #4285f4,
+	    0 0 102px #4285f4,
+	    0 0 151px #4285f4;
+}
+
+.sub-title-2 {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+}
+
+/*
+ * FORM
+ */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea#subject {
+	width: 100%; /* Full width */
+	color: #757575;
+	padding: 10px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	background-color: #465298;
+	color: white;
+	padding: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: auto;
+	width: 50%;
+}
+input[type=submit]:hover {
+	background-color: #606dbc;
+}
+::placeholder {
+	color: #C0C0C0;
+}
+input[type=text]:focus {
+	border: 2px solid red;
+}
+

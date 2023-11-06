@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.header {
+	background-color: #e04205;
+}
+
+.intro-container {
+	width: 100%;
+  	max-width: 750px;
+  	margin: 0 auto;
+  	padding: 50px;
+}
+
+.intro-container-content {
+
+}

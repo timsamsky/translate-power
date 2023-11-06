@@ -1,0 +1,45 @@
+https://github.com/WebDevSimplified/Responsive-Landing-Page-Email-Sign-Up/blob/master/index.html
+https://github.com/WebDevSimplified/Responsive-Landing-Page-Email-Sign-Up/blob/master/styles.css
+Github Project
+https://www.youtube.com/watch?v=C13ng8VzQAY
+https://www.youtube.com/watch?v=K8BigvW7sZU
+Youtube
+
+https://css-tricks.com/how-to-create-neon-text-with-css/
+CSS Neon
+https://css-tricks.com/stripes-css/
+CSS Stripes
+
+https://thenextweb.com/news/xp-css-style-windows-retro
+XP Style
+https://botoxparty.github.io/XP.css/#button
+https://github.com/botoxparty/XP.css/blob/main/README.md
+
+
+				<!--
+				<div class="dark-body">
+					<div class="about">
+						<img id="floater" src="img/logo.jpg">
+						<p>
+							Канал Translate Power занимается переводом трейлеров и иных видеоматериалов, на которых нет русских озвучек в интернете. Вы можете вносить свои предложения по поводу перевода и выражать пожелания о том, какие видео вы бы хотели услышать в русской версии.
+							Немаловажный принцип нашей политики - это то, что фильмы, трейлеры которых мы озвучили, являются качественными, и полностью рекомендуются нами для вашего просмотра. Мы уважаем время и досуг наших зрителей. Смотрите только хорошие фильмы!
+						</p>
+						<div class="form">
+							<p>Задайте нам вопрос</p>
+							<form action="action_page.php">
+				                <div class="form-in">
+				                <label for="name">Имя</label>
+				                </div>
+				                <div class="form-in">
+				                  <input type="text" id="name" name="name" placeholder="Ваше имя">
+				                </div>		          
+				                <label for="email">Имэйл</label>
+				                <input type="text" id="email" name="email" placeholder="Ваш имэйл">
+				                <label for="subject">Вопрос</label>
+				                <textarea id="subject" name="subject" placeholder="Ваш вопрос" style="height: 150px"></textarea>
+				                <input type="submit" name="Submit">           
+		              		</form>
+						</div>
+					</div>	
+				</div>
+				-->
